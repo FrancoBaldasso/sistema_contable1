@@ -9,7 +9,8 @@ namespace WindowsFormsApp1
     class Operacion
     {
         public int Numero { get; set; }
-        public double Monto { get; set; }
+
+        public DateTime fecha { get; set; }
         public List<Cuentas> Cuentas { get; set; }
         
         public Operacion()
